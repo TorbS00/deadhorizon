@@ -1,0 +1,29 @@
+# ============================================
+#       DEAD HORIZON — Zone Definitions
+# ============================================
+# Each town can have multiple zones (2-6).
+# Zones are 2D rectangles with infinite height.
+# Players outside all zones are in zone 1 (wilderness).
+#
+# coords: [x1, z1, x2, z2] — two opposite corners
+
+zones:
+  - name: "Grimvale"
+    level: 3
+    coords: [120, 340, 280, 500]
+
+  - name: "Grimvale"
+    level: 4
+    coords: [160, 380, 240, 460]
+
+  - name: "Fort Ashburn"
+    level: 5
+    coords: [800, -200, 920, -80]
+
+  - name: "Fort Ashburn"
+    level: 6
+    coords: [840, -160, 880, -120]
+
+  - name: "Ravenpost"
+    level: 2
+    coords: [-500, 100, -380, 220]

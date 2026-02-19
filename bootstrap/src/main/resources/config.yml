@@ -1,0 +1,26 @@
+# ============================================
+#         DEAD HORIZON — Configuration
+# ============================================
+
+general:
+  server-name: "DeadHorizon"
+  max-players: 100
+  debug: false
+
+# Map settings
+map:
+  # Name of the template world folder (never modified, used as source for resets)
+  template-world: "deadhorizon_template"
+  # Name of the active world folder (players play on this, gets reset)
+  active-world: "deadhorizon"
+  # Time between map resets in minutes (240 = 4 hours)
+  reset-interval-minutes: 240
+
+# Database settings
+database:
+  host: "localhost"
+  port: 3306
+  name: "deadhorizon"
+  username: "root"
+  password: ""
+  max-pool-size: 10

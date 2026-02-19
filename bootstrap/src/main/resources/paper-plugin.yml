@@ -1,0 +1,7 @@
+name: DeadHorizon
+version: '${version}'
+main: gg.deadhorizon.bootstrap.DeadHorizonPlugin
+description: "DEAD HORIZON — The Last WarZ"
+api-version: '1.21'
+authors:
+  - torbs00
